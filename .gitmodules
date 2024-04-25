@@ -1,3 +1,6 @@
 [submodule "transformers"]
 	path = transformers
 	url = https://github.com/Ravencus/transformers.git
+[submodule "Spec-Bench"]
+	path = Spec-Bench
+	url = https://github.com/Ravencus/Spec-Bench.git
