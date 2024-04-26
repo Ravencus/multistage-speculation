@@ -47,4 +47,5 @@ evaluation and analysis of multistage speculation decoder, implemented based on 
 - Multistage:
   - 1. need manager class and code refactor
   - 2. need more advanced scheduler
-  - 
+
+- H100: how to ssh
