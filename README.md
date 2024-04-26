@@ -18,6 +18,14 @@ evaluation and analysis of multistage speculation decoder, implemented based on 
   - encapsulate assisted_forward
   - eval() compatibility check
   - logger file handler
+- Token Length control
+  - disable scheduler for fix length baseline(exp scale settings: 1, 2, 4, 8, ...)
+  - enable scheduler for comparison
+- need to run multiple times to eliminate variation
+
+- Data cropper: crop valid data from log file
+- Data Analyzer: get critical metrics: acceptance rate; speed up, ...
+- Comparator: compare candiate_time + verifier_time with timer from Spec-Bench
 
 ### Fusing
 
