@@ -4,15 +4,23 @@ benchmark based on spec-bench: https://github.com/hemingkx/Spec-Bench
 
 ## HOW TO USE
 install pytorch
+
 cd transformers
+
 switch to 2-stage branch
+
 follow readme
+
 in multistage-speculation
+
 install dependencies for spec-bench
+
 run batch_run.py in testbench folder.
 
 Problem running llama models: repetitive answers.
+
 cannot run llama-7b-chat with tinyllama: llama-7b-chat gets runtime error
+
 using vicuna 13b against 7b currently.
 
 ## TODO LIST
