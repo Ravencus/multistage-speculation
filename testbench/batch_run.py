@@ -19,6 +19,8 @@ if __name__ == "__main__":
     # generate a list of tuples of (model, assistant_model)
     # set environment variables
     os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+    # modify to your own cache dir for models
+    os.environ["HF_HOME"] = "/home/hice1/zzheng345/scratch/model_cache"
     list_tuples = [ ("EleutherAI/pythia-1.4b-deduped", "EleutherAI/pythia-160m-deduped", "pythia-1.4b-160m"), 
                    ("EleutherAI/pythia-2.8b-deduped", "EleutherAI/pythia-160m-deduped", "pythia-2.8b-160m"),
                    ("meta-llama/Llama-2-7b-chat-hf", "PY007/TinyLlama-1.1B-Chat-v0.1", "llama-2-7b-1.1b"),
